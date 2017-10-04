@@ -1,0 +1,24 @@
+{
+   "name": "App Icon",
+   "description": "Quickly export an iPhone app icon.",
+   "author": "Tschoffelen",
+   "homepage": "https://github.com/tschoffelen/sketch-app-icon",
+   "version": "1.0.0",
+   "identifier": "com.tschoffelen.sketch.appicon",
+   "compatibleVersion": "1.0.0",
+   "bundleVersion": 4,
+
+   "menu": {
+      "isRoot": true,
+      "items": ["com.tschoffelen.sketch.appicon.action.export"]
+   },
+   "commands": [
+      {
+         "script": "export.js",
+         "handler": "handler",
+         "shortcut": "cmd alt crtl e",
+         "name": "Export App Icon...",
+         "identifier": "com.tschoffelen.sketch.appicon.action.export"
+      }
+   ]
+}
